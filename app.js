@@ -77,8 +77,8 @@ form.addEventListener('submit', async (event) => {
 
 if (navigator.modelContext?.registerTool) {
   navigator.modelContext.registerTool({
-    name: 'lookup_jacket_tracking',
-    description: '按完整收件手机号查询夹克、保温杯和CHIC杂志物流单号。',
+    name: 'lookup_merch_tracking',
+    description: '按完整收件手机号查询拉链卫衣、夹克、保温杯和CHIC杂志物流单号。',
     inputSchema: {
       type: 'object',
       properties: { phone: { type: 'string', description: '完整收件手机号' } },
